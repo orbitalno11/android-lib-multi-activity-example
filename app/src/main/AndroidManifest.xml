@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.module_res">
+    package="com.orbitalno11.module_res">
 
     <application
         android:allowBackup="true"
@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Moduleres">
-        <activity android:name=".PageOne" ></activity>
-        <activity android:name=".PageTwo" ></activity>
-        <activity android:name=".PageThree" ></activity>
+        <activity android:name="com.orbitalno11.module_res.PageOne" ></activity>
+        <activity android:name="com.orbitalno11.module_res.PageTwo" ></activity>
+        <activity android:name="com.orbitalno11.module_res.PageThree" ></activity>
     </application>
 
 </manifest>

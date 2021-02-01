@@ -1,4 +1,4 @@
-package com.example.module_res
+package com.orbitalno11.module_res
 
 import org.junit.Test
 
