@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Moduleres">
-        <activity android:name=".ActivityOne" />
-        <activity android:name=".ActivityTwo" />
-        <activity android:name=".ActivityThree" />
+        <activity android:name=".PageOne" />
+        <activity android:name=".PageTwo" />
+        <activity android:name=".PageThree" />
     </application>
 
 </manifest>

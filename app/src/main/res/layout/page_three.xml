@@ -4,36 +4,36 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".ActivityOne">
+    tools:context=".PageThree">
 
     <TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
-        android:text="activity 1"
+        android:text="activity 3"
         android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonActivity1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="activity1"
+        app:layout_constraintTop_toBottomOf="@id/title" />
 
     <Button
         android:id="@+id/buttonActivity2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="activity2"
-        app:layout_constraintTop_toBottomOf="@id/title" />
-
-    <Button
-        android:id="@+id/buttonActivity3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="activity3"
-        app:layout_constraintTop_toBottomOf="@id/buttonActivity2" />
+        app:layout_constraintTop_toBottomOf="@id/buttonActivity1" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="300dp"
         android:layout_height="400dp"
-        android:src="@drawable/success"
-        app:layout_constraintTop_toBottomOf="@id/buttonActivity3"
+        android:src="@drawable/ic_baseline_forum_24"
+        app:layout_constraintTop_toBottomOf="@id/buttonActivity2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent" />

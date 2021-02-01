@@ -5,17 +5,17 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_three.*
 
-class ActivityThree : AppCompatActivity() {
+class PageThree : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_three)
+        setContentView(R.layout.page_three)
 
         buttonActivity1.setOnClickListener {
-            startActivity(Intent(this, ActivityOne::class.java))
+            startActivity(Intent(this, PageOne::class.java))
         }
 
         buttonActivity2.setOnClickListener {
-            startActivity(Intent(this, ActivityTwo::class.java))
+            startActivity(Intent(this, PageTwo::class.java))
         }
     }
 }
