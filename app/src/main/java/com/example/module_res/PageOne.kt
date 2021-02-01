@@ -3,7 +3,7 @@ package com.example.module_res
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_one.*
+import kotlinx.android.synthetic.main.page_one.*
 
 class PageOne : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
